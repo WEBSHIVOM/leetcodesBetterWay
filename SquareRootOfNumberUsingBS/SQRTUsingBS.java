@@ -7,7 +7,7 @@ public class SQRTUsingBS {
 		int r=n;
 		while(l<=r) {
 			int mid=l+((r-l)/2);
-			
+			//check with mid
 			if(mid*mid==n) {
 				return true;
 			}else if(mid*mid<n) {
