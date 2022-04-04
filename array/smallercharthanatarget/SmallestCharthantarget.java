@@ -24,4 +24,4 @@ public class SmallestCharthantarget {
            return letters[l];
         }
    }
-}
+
