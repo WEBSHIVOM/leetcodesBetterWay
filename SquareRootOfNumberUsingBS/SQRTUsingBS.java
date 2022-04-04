@@ -18,4 +18,9 @@ public class SQRTUsingBS {
 		}
 		return false;
 	}
+
+	public static void main(String[] args) {
+		SQRTUsingBS sq = new SQRTUsingBS();
+		System.out.print(sq.sqrtOfNum(16));
+	}
 }
