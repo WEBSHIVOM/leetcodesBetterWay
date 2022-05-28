@@ -25,7 +25,7 @@ public class max_productUsingMaxCalculation {
                 min_2=a[i];
             }
         }
-       int n=a.length-1;
+  
         if(min_1*min_2<max_1*max_2){
               System.out.println("Pair is"+max_1+" &"+max_2);
         }else{
