@@ -7,9 +7,7 @@ public class rightRotateArrayOne {
     {
         int[] A = { 1, 2, 3, 4, 5, 6, 7 };
         int k = 3;
- 
         rightRotate(A, k);
- 
         System.out.println(Arrays.toString(A));
     }
 
