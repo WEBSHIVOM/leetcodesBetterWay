@@ -1,5 +1,7 @@
 package array.pivotIndexwhereLeftSumRIghtsum;
 
+import java.util.Arrays;
+
 public class solution {
     
         public int findMiddleIndex(int[] nums) {
