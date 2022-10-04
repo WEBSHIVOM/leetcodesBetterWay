@@ -17,9 +17,9 @@ public class PalindromicFasterLinkedList {
         reverseList(reRevHead);
         
         if(head == null || midAfter == null){
-            return 1 == 1;
+            return true;
         }
-        return 0 == 1;
+        return false;
     }
     
     public ListNode reverseList(ListNode head) {
