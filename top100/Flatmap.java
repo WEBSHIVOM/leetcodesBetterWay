@@ -18,7 +18,6 @@ package top100;
             instituteList.add(new Institute("IIT", Arrays.asList("Delhi", "Mumbai", "Kharagpur")));
             instituteList.add(new Institute("NIFT", Arrays.asList("Hyderabad", "Mumbai", "Patna", "Bangalore")));
              
-            //Java 8 Map() : Get names of all institutes
              
             List<String> namesOfInstitutes = instituteList.stream().map(Institute::getName).collect(Collectors.toList());
              
