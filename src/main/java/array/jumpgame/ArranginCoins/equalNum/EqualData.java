@@ -1,4 +1,4 @@
-package src.main.java.array.ArranginCoins.equalNum;
+package src.main.java.array.jumpgame.ArranginCoins.equalNum;
 
 import java.util.*;
 import java.util.Map.Entry;
