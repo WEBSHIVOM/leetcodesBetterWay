@@ -11,9 +11,8 @@ jobs:
 
     steps:
     - name: Checkout code
-      uses: actions/checkout@v2
+      uses: actions/checkout@v1
       with:
-        ref: v2  # Explicitly specify the v2 version
         submodules: 'recursive'
 
     - name: Use Node.js 16
