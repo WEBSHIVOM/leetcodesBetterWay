@@ -22,5 +22,5 @@ jobs:
 
     - name: Run script
       run: |
-        ./update_readme.bat
+        ./update_Readme.bat
       shell: cmd
