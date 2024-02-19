@@ -12,8 +12,16 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v2
+      with:
+        ref: v2  # Explicitly specify the v2 version
+        submodules: 'recursive'
+
+    - name: Use Node.js 16
+      uses: actions/setup-node@v4
+      with:
+        node-version: '16'
 
     - name: Run script
       run: |
-        ./update_Readme.bat
+        ./update_readme.bat
       shell: cmd
