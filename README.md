@@ -1,64 +1,114 @@
-* [checkIftwoNumbers.java](https://github.com/WEBSHIVOM/leetcodesBetterWay/blob/main/src/main/java/relative_path:\=/checkIftwoNumbers.java
-* [sort012.java](https://github.com/WEBSHIVOM/leetcodesBetterWay/blob/main/src/main/java/relative_path:\=/sort012.java
-* [DistanceBetweenTwoArray.java](https://github.com/WEBSHIVOM/leetcodesBetterWay/blob/main/src/main/java/relative_path:\=/DistanceBetweenTwoArray.java
-* [JumpGame.java](https://github.com/WEBSHIVOM/leetcodesBetterWay/blob/main/src/main/java/relative_path:\=/JumpGame.java
-* [ArrangingCoins.java](https://github.com/WEBSHIVOM/leetcodesBetterWay/blob/main/src/main/java/relative_path:\=/ArrangingCoins.java
-* [EqualData.java](https://github.com/WEBSHIVOM/leetcodesBetterWay/blob/main/src/main/java/relative_path:\=/EqualData.java
-* [KTHlargeAndMin.java](https://github.com/WEBSHIVOM/leetcodesBetterWay/blob/main/src/main/java/relative_path:\=/KTHlargeAndMin.java
-* [kthLargMinPriorityqueue.java](https://github.com/WEBSHIVOM/leetcodesBetterWay/blob/main/src/main/java/relative_path:\=/kthLargMinPriorityqueue.java
-* [kthsmallestelementMaxheap.java](https://github.com/WEBSHIVOM/leetcodesBetterWay/blob/main/src/main/java/relative_path:\=/kthsmallestelementMaxheap.java
-* [kthsmallestelementMinheap.java](https://github.com/WEBSHIVOM/leetcodesBetterWay/blob/main/src/main/java/relative_path:\=/kthsmallestelementMinheap.java
-* [MissingNumber.java](https://github.com/WEBSHIVOM/leetcodesBetterWay/blob/main/src/main/java/relative_path:\=/MissingNumber.java
-* [MajorityElement.java](https://github.com/WEBSHIVOM/leetcodesBetterWay/blob/main/src/main/java/relative_path:\=/MajorityElement.java
-* [maxANDmin_brute.java](https://github.com/WEBSHIVOM/leetcodesBetterWay/blob/main/src/main/java/relative_path:\=/maxANDmin_brute.java
-* [MaxLengthString.java](https://github.com/WEBSHIVOM/leetcodesBetterWay/blob/main/src/main/java/relative_path:\=/MaxLengthString.java
-* [MaxProfit.java](https://github.com/WEBSHIVOM/leetcodesBetterWay/blob/main/src/main/java/relative_path:\=/MaxProfit.java
-* [MergeArray.java](https://github.com/WEBSHIVOM/leetcodesBetterWay/blob/main/src/main/java/relative_path:\=/MergeArray.java
-* [missingvar.java](https://github.com/WEBSHIVOM/leetcodesBetterWay/blob/main/src/main/java/relative_path:\=/missingvar.java
-* [negativeInMATRIX.java](https://github.com/WEBSHIVOM/leetcodesBetterWay/blob/main/src/main/java/relative_path:\=/negativeInMATRIX.java
-* [FindFirstLastoccurrance.java](https://github.com/WEBSHIVOM/leetcodesBetterWay/blob/main/src/main/java/relative_path:\=/FindFirstLastoccurrance.java
-* [findFirstOccurrence.java](https://github.com/WEBSHIVOM/leetcodesBetterWay/blob/main/src/main/java/relative_path:\=/findFirstOccurrence.java
-* [findlastOccurrence.java](https://github.com/WEBSHIVOM/leetcodesBetterWay/blob/main/src/main/java/relative_path:\=/findlastOccurrence.java
-* [totaltOccurrence.java](https://github.com/WEBSHIVOM/leetcodesBetterWay/blob/main/src/main/java/relative_path:\=/totaltOccurrence.java
-* [binary_recursion.java](https://github.com/WEBSHIVOM/leetcodesBetterWay/blob/main/src/main/java/relative_path:\=/binary_recursion.java
-* [buteforce.java](https://github.com/WEBSHIVOM/leetcodesBetterWay/blob/main/src/main/java/relative_path:\=/buteforce.java
-* [iterative_binarySea.java](https://github.com/WEBSHIVOM/leetcodesBetterWay/blob/main/src/main/java/relative_path:\=/iterative_binarySea.java
-* [solution.java](https://github.com/WEBSHIVOM/leetcodesBetterWay/blob/main/src/main/java/relative_path:\=/solution.java
-* [RemoveDuplicateFromsorter.java](https://github.com/WEBSHIVOM/leetcodesBetterWay/blob/main/src/main/java/relative_path:\=/RemoveDuplicateFromsorter.java
-* [duplicateFloydDetectionSLowfastpointer.java](https://github.com/WEBSHIVOM/leetcodesBetterWay/blob/main/src/main/java/relative_path:\=/duplicateFloydDetectionSLowfastpointer.java
-* [firstRepeatingElement.java](https://github.com/WEBSHIVOM/leetcodesBetterWay/blob/main/src/main/java/relative_path:\=/firstRepeatingElement.java
-* [reverseNAIVE.java](https://github.com/WEBSHIVOM/leetcodesBetterWay/blob/main/src/main/java/relative_path:\=/reverseNAIVE.java
-* [RotateArray.java](https://github.com/WEBSHIVOM/leetcodesBetterWay/blob/main/src/main/java/relative_path:\=/RotateArray.java
-* [SmallestCharthantarget.java](https://github.com/WEBSHIVOM/leetcodesBetterWay/blob/main/src/main/java/relative_path:\=/SmallestCharthantarget.java
-* [QuickSort.java](https://github.com/WEBSHIVOM/leetcodesBetterWay/blob/main/src/main/java/relative_path:\=/QuickSort.java
-* [topDownMergeSort.java](https://github.com/WEBSHIVOM/leetcodesBetterWay/blob/main/src/main/java/relative_path:\=/topDownMergeSort.java
-* [SpecialArray.java](https://github.com/WEBSHIVOM/leetcodesBetterWay/blob/main/src/main/java/relative_path:\=/SpecialArray.java
-* [subarraySUmMap.java](https://github.com/WEBSHIVOM/leetcodesBetterWay/blob/main/src/main/java/relative_path:\=/subarraySUmMap.java
-* [ewqualZeroandOne.java](https://github.com/WEBSHIVOM/leetcodesBetterWay/blob/main/src/main/java/relative_path:\=/ewqualZeroandOne.java
-* [TwoSum.java](https://github.com/WEBSHIVOM/leetcodesBetterWay/blob/main/src/main/java/relative_path:\=/TwoSum.java
-* [binaryIterative.java](https://github.com/WEBSHIVOM/leetcodesBetterWay/blob/main/src/main/java/relative_path:\=/binaryIterative.java
-* [TargetIndices.java](https://github.com/WEBSHIVOM/leetcodesBetterWay/blob/main/src/main/java/relative_path:\=/TargetIndices.java
-* [CyclicLinkedList.java](https://github.com/WEBSHIVOM/leetcodesBetterWay/blob/main/src/main/java/relative_path:\=/CyclicLinkedList.java
-* [PalindromicFasterLinkedList.java](https://github.com/WEBSHIVOM/leetcodesBetterWay/blob/main/src/main/java/relative_path:\=/PalindromicFasterLinkedList.java
-* [palindromicLinledlist.java](https://github.com/WEBSHIVOM/leetcodesBetterWay/blob/main/src/main/java/relative_path:\=/palindromicLinledlist.java
-* [maxLengthSubstringWIthnonrepeatingCharacters.java](https://github.com/WEBSHIVOM/leetcodesBetterWay/blob/main/src/main/java/relative_path:\=/maxLengthSubstringWIthnonrepeatingCharacters.java
-* [MaxLengthCommonPrefix.java](https://github.com/WEBSHIVOM/leetcodesBetterWay/blob/main/src/main/java/relative_path:\=/MaxLengthCommonPrefix.java
-* [maxSubArraywithLargestSum.java](https://github.com/WEBSHIVOM/leetcodesBetterWay/blob/main/src/main/java/relative_path:\=/maxSubArraywithLargestSum.java
-* [MaxProductOfArray.java](https://github.com/WEBSHIVOM/leetcodesBetterWay/blob/main/src/main/java/relative_path:\=/MaxProductOfArray.java
-* [FindPivotElement.java](https://github.com/WEBSHIVOM/leetcodesBetterWay/blob/main/src/main/java/relative_path:\=/FindPivotElement.java
-* [Getsqrt.java](https://github.com/WEBSHIVOM/leetcodesBetterWay/blob/main/src/main/java/relative_path:\=/Getsqrt.java
-* [SQRTUsingBS.java](https://github.com/WEBSHIVOM/leetcodesBetterWay/blob/main/src/main/java/relative_path:\=/SQRTUsingBS.java
-* [VALIDPARENTHESIS.java](https://github.com/WEBSHIVOM/leetcodesBetterWay/blob/main/src/main/java/relative_path:\=/VALIDPARENTHESIS.java
-* [decodeString.java](https://github.com/WEBSHIVOM/leetcodesBetterWay/blob/main/src/main/java/relative_path:\=/decodeString.java
-* [PLnnidrome.java](https://github.com/WEBSHIVOM/leetcodesBetterWay/blob/main/src/main/java/relative_path:\=/PLnnidrome.java
-* [reverseStringwithspecialChar.java](https://github.com/WEBSHIVOM/leetcodesBetterWay/blob/main/src/main/java/relative_path:\=/reverseStringwithspecialChar.java
-* [ValidPalindrome.java](https://github.com/WEBSHIVOM/leetcodesBetterWay/blob/main/src/main/java/relative_path:\=/ValidPalindrome.java
-* [PrintOneTo20using5thread.java](https://github.com/WEBSHIVOM/leetcodesBetterWay/blob/main/src/main/java/relative_path:\=/PrintOneTo20using5thread.java
-* [Flatmap.java](https://github.com/WEBSHIVOM/leetcodesBetterWay/blob/main/src/main/java/relative_path:\=/Flatmap.java
-* [LeftRotationofArrayOneWay.java](https://github.com/WEBSHIVOM/leetcodesBetterWay/blob/main/src/main/java/relative_path:\=/LeftRotationofArrayOneWay.java
-* [maxProductSor.java](https://github.com/WEBSHIVOM/leetcodesBetterWay/blob/main/src/main/java/relative_path:\=/maxProductSor.java
-* [max_productUsingMaxCalculation.java](https://github.com/WEBSHIVOM/leetcodesBetterWay/blob/main/src/main/java/relative_path:\=/max_productUsingMaxCalculation.java
-* [rightRotateArrayOne.java](https://github.com/WEBSHIVOM/leetcodesBetterWay/blob/main/src/main/java/relative_path:\=/rightRotateArrayOne.java
-* [sortUsingCount.java](https://github.com/WEBSHIVOM/leetcodesBetterWay/blob/main/src/main/java/relative_path:\=/sortUsingCount.java
-* [sortUsingCountNewWay.java](https://github.com/WEBSHIVOM/leetcodesBetterWay/blob/main/src/main/java/relative_path:\=/sortUsingCountNewWay.java
-* [UsingQuickSort.java](https://github.com/WEBSHIVOM/leetcodesBetterWay/blob/main/src/main/java/relative_path:\=/UsingQuickSort.java
+QUESTIONS
+
+ *  https://leetcode.com/problems/valid-parentheses/
+ *  https://leetcode.com/problems/linked-list-cycle/
+ *  https://leetcode.com/problems/reverse-nodes-in-k-group/
+ *  https://leetcode.com/problems/linked-list-cycle-ii/
+ *  https://leetcode.com/problems/linked-list-cycle/
+ *  https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/
+ *  https://leetcode.com/problems/add-two-numbers/
+ *  https://leetcode.com/problems/palindrome-linked-list/
+ *  https://leetcode.com/problems/remove-linked-list-elements/
+ *  https://leetcode.com/problems/sort-list/
+ *  https://leetcode.com/problems/insertion-sort-list/
+ *  https://leetcode.com/problems/remove-nth-node-from-end-of-list/
+ *  https://leetcode.com/problems/ugly-number/
+ *  https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/
+ *  https://leetcode.com/problems/k-closest-points-to-origin/
+ *  https://leetcode.com/problems/median-of-two-sorted-arrays/
+ *  https://leetcode.com/problems/reverse-string/
+ *  https://leetcode.com/problems/length-of-last-word/
+ *  https://leetcode.com/problems/longest-common-prefix/
+ *  https://leetcode.com/problems/spiral-matrix-ii/
+ *  https://leetcode.com/problems/merge-intervals/
+ *  https://leetcode.com/problems/largest-number/
+ *  https://leetcode.com/problems/squares-of-a-sorted-array/
+ *  https://leetcode.com/problems/pascals-triangle-ii/
+ *  https://leetcode.com/problems/pascals-triangle/
+ *  https://leetcode.com/problems/merge-intervals/
+ *  https://leetcode.com/problems/plus-one/
+ *  https://leetcode.com/problems/maximum-subarray/
+ *  https://leetcode.com/problems/rotate-array/
+ *  https://leetcode.com/problems/zigzag-conversion/
+ *  https://leetcode.com/problems/roman-to-integer/
+ *  https://leetcode.com/problems/integer-to-roman/
+ *  https://leetcode.com/problems/string-to-integer-atoi/
+ *  https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/
+ *  https://leetcode.com/problems/longest-common-prefix/
+ *  https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/
+ *  https://leetcode.com/problems/median-of-two-sorted-arrays/
+ *  https://leetcode.com/problems/powx-n/
+ *  https://leetcode.com/problems/search-a-2d-matrix-ii/
+ *  https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/
+ *  https://leetcode.com/problems/search-in-rotated-sorted-array/
+ *  https://leetcode.com/problems/find-peak-element/
+ *  https://leetcode.com/problems/k-closest-points-to-origin/
+ *  https://leetcode.com/problems/sort-array-by-increasing-frequency/
+ *  https://leetcode.com/problems/top-k-frequent-elements/
+ *  https://leetcode.com/problems/find-k-closest-elements/
+ *  https://leetcode.com/problems/sort-an-array/
+ *  https://leetcode.com/problems/kth-largest-element-in-an-array/
+ *  https://leetcode.com/problems/kth-smallest-element-in-a-bst/
+ *  https://leetcode.com/problems/flatten-binary-tree-to-linked-list/
+ *  https://leetcode.com/problems/populating-next-right-pointers-in-each-node/
+ *  https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/
+ *  https://leetcode.com/problems/binary-tree-level-order-traversal/
+ *  https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/
+ *  https://leetcode.com/problems/validate-binary-search-tree/
+ *  https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/
+ *  https://leetcode.com/problems/binary-tree-right-side-view/
+ *  https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/
+ *  https://leetcode.com/problems/count-good-nodes-in-binary-tree/
+ *  https://leetcode.com/problems/balanced-binary-tree/
+ *  https://leetcode.com/problems/minimum-absolute-difference-in-bst/
+ *  https://leetcode.com/problems/path-sum/
+ *  https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/
+ *  https://leetcode.com/problems/same-tree/
+ *  https://leetcode.com/problems/binary-tree-paths/
+ *  https://leetcode.com/problems/maximum-depth-of-binary-tree/
+ *  https://leetcode.com/problems/merge-two-binary-trees/
+ *  https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/
+ *  https://leetcode.com/problems/symmetric-tree/
+ *  https://leetcode.com/problems/range-sum-of-bst/
+ *  https://leetcode.com/problems/subtree-of-another-tree/
+ *  https://leetcode.com/problems/invert-binary-tree/
+ *  https://leetcode.com/problems/diameter-of-binary-tree/
+ *  https://leetcode.com/problems/swap-nodes-in-pairs/
+ *  https://leetcode.com/problems/rotate-list/
+ *  https://leetcode.com/problems/merge-two-sorted-lists/
+ *  https://leetcode.com/problems/remove-duplicates-from-sorted-list/
+ *  https://leetcode.com/problems/reorder-list/
+ *  https://leetcode.com/problems/middle-of-the-linked-list/
+ *  https://leetcode.com/problems/remove-nth-node-from-end-of-list/
+ *  https://leetcode.com/problems/reverse-linked-list-ii/
+ *  https://leetcode.com/problems/partition-list/
+ *  https://leetcode.com/problems/container-with-most-water/
+ *  https://leetcode.com/problems/valid-triangle-number/
+ *  https://leetcode.com/problems/3sum/
+ *  https://leetcode.com/problems/k-diff-pairs-in-an-array/
+ *  https://leetcode.com/problems/count-number-of-nice-subarrays/
+ *  https://leetcode.com/problems/subarray-sum-equals-k/
+ *  https://leetcode.com/problems/max-consecutive-ones/
+ *  https://leetcode.com/problems/max-consecutive-ones-iii/
+ *  https://leetcode.com/problems/sort-colors/
+ *  https://leetcode.com/problems/remove-element/
+ *  https://leetcode.com/problems/intersection-of-two-arrays/
+ *  https://leetcode.com/problems/consecutive-characters/
+ *  https://leetcode.com/problems/implement-strstr/
+ *  https://leetcode.com/problems/group-anagrams/
+ *  https://leetcode.com/problems/reverse-words-in-a-string/
+ *  https://leetcode.com/problems/longest-substring-without-repeating-characters/
+ *  https://leetcode.com/problems/maximum-subarray/
+ *  https://leetcode.com/problems/4sum/
+ *  https://leetcode.com/problems/majority-element-ii/
+ *  https://leetcode.com/problems/majority-element/
+ *  https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/
+ *  https://leetcode.com/problems/binary-search/
+ *  https://leetcode.com/problems/fibonacci-number/
+ *  https://leetcode.com/problems/missing-number/
+ *  https://leetcode.com/problems/sqrtx/
+ *  https://leetcode.com/problems/maximum-product-subarray/
+ *  https://leetcode.com/problems/reshape-the-matrix/
+ *  https://leetcode.com/problems/spiral-matrix/
+ *  https://leetcode.com/problems/find-the-duplicate-number/
+![image]( *  https://github.com/WEBSHIVOM/leetcodesBetterWay/assets/20663598/fe5986ff-21bc-428f-b111-d0fb0eb7d053)
