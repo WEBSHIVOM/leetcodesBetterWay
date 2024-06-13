@@ -4,7 +4,8 @@ package src.main.java.array.distanceBetweenARrray;
 import java.util.Arrays;
 
 public class DistanceBetweenTwoArray {
-    
+
+
     public int findTheDistanceValue(int[] arr1, int[] arr2, int d) {
         Arrays.sort(arr2);
 
