@@ -10,7 +10,7 @@ public class SmallestSubArrayWithGivenSum {
      *
      * @param arr input array
      * @param target given target
-     * @return
+     * @return int as min subarray size
      */
     public static int findSmallestSubArrayOfGivenSize(int[] arr, int target) {
         int window_start = 0;
