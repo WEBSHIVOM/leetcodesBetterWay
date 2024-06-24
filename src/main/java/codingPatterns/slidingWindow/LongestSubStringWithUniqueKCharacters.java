@@ -24,7 +24,7 @@ public class LongestSubStringWithUniqueKCharacters {
                 window_start++;
             }
             maxLength = Math.max(maxLength, window_end - window_start + 1);
-//         //  System.out.println(">>>>>>>>"+window_start+"window ennd"+window_end);
+            //      System.out.println(">>>>>>>>"+window_start+"window ennd"+window_end);
         }
         return maxLength;
     }
@@ -32,6 +32,6 @@ public class LongestSubStringWithUniqueKCharacters {
     public static void main(String[] args) {
         String s = "aabacbebebe";
         int k = 3;
-        System.out.println(longestSubstringwithkCharacters(s,k));
+        System.out.println(longestSubstringwithkCharacters(s, k));
     }
 }
