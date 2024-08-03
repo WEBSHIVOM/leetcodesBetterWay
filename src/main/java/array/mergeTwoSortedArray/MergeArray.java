@@ -13,14 +13,19 @@ The final sorted array should not be returned by the function, but instead be
 public class MergeArray {
     public void merge(int[] nums1, int m, int[] nums2, int n) {
 
-        int tail1 = m - 1, tail2 = n - 1, finished = m + n - 1;
-        while (tail1 >= 0 && tail2 >= 0) {
-            nums1[finished--] = (nums1[tail1] > nums2[tail2]) ? 
-                                 nums1[tail1--] : nums2[tail2--];
-        }
-    
-        while (tail2 >= 0) { //only need to combine with remaining nums2, if any
-            nums1[finished--] = nums2[tail2--];
+        int first = m-1;
+        int second=n-1;
+        int merged=m+n-1;
+
+        while(second>=0){
+            if(first>=0 && nums1[first]>nums2[second]){
+                nums1[merged]=nums1[first];
+                first--;
+            }else {
+                nums1[merged]=nums2[second];
+                second--;
+            }
+            merged--;
         }
     }
 }
