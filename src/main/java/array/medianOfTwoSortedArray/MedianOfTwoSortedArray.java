@@ -25,10 +25,10 @@ public class MedianOfTwoSortedArray {
 
         int[] merged = new int[m + n];
         int k = 0;
-        for (int i = 0; i < m ; i++) {
+        for (int i = 0; i < m; i++) {
             merged[k++] = nums1[i];
         }
-        for (int i = 0; i < n ; i++) {
+        for (int i = 0; i < n; i++) {
             merged[k++] = nums2[i];
         }
         Arrays.sort(merged);
@@ -38,21 +38,55 @@ public class MedianOfTwoSortedArray {
         if (totalLength % 2 == 1) {
             return (double) merged[totalLength / 2];
         } else {
-            int middle1 = merged[(totalLength-1)/2];
+            int middle1 = merged[(totalLength - 1) / 2];
             int middle2 = merged[totalLength / 2];
-            return (double)(middle2+middle1)/ 2.0;
+            return (double) (middle2 + middle1) / 2.0;
         }
 
     }
 
-//    public double findMedianSortedArraysOptimizedWay(int[] nums1, int[] nums2) {
-//
-//    }
+    public double findMedianSortedArraysOptimizedWay(int[] nums1, int[] nums2) {
+        int n1 = nums1.length;
+        int n2 = nums2.length;
+        int n = n1 + n2;
+        int i = 0;
+        int j = 0;
+        int k = 0;
+        int[] mergedArray = new int[n];
+        while (i <= n1 && j <= n2) {
+            //handle when index i reaches last element
+            if (i == n1) {
+                while (j < n2) {
+                    mergedArray[k++] = nums2[j++];
+                }
+                break;
+            } else if (j == n2) {
+                while (i < n1) {
+                    mergedArray[k++] = nums1[i++];
+                }
+                break;
+            }
+            if (nums1[i] > nums2[j]) {
+                mergedArray[k++] = nums1[i++];
+            } else {
+                mergedArray[k++] = nums2[j++];
+            }
+        }
+        int totalLength = mergedArray.length;
+
+        if (totalLength % 2 == 1) {
+            return (double) mergedArray[totalLength / 2];
+        } else {
+            int middle1 = mergedArray[(totalLength - 1) / 2];
+            int middle2 = mergedArray[totalLength / 2];
+            return (double) (middle2 + middle1) / 2.0;
+        }
+    }
 
     public static void main(String[] args) {
         int[] nums1 = {1, 2}, nums2 = {3, 4};
         MedianOfTwoSortedArray medianOfTwoSortedArray = new MedianOfTwoSortedArray();
-        double result = medianOfTwoSortedArray.findMedianSortedArraysBruteForceWay(nums1, nums2);
+        double result = medianOfTwoSortedArray.findMedianSortedArraysOptimizedWay(nums1, nums2);
 
         System.out.print("result>>>>>>>>>>>>>");
         System.out.println(result);
