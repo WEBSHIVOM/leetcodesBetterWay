@@ -53,25 +53,25 @@ public class MedianOfTwoSortedArray {
         int j = 0;
         int k = 0;
         int[] mergedArray = new int[n];
-        while (i <= n1 && j <= n2) {
-            //handle when index i reaches last element
-            if (i == n1) {
-                while (j < n2) {
-                    mergedArray[k++] = nums2[j++];
-                }
-                break;
-            } else if (j == n2) {
-                while (i < n1) {
-                    mergedArray[k++] = nums1[i++];
-                }
-                break;
-            }
-            if (nums1[i] > nums2[j]) {
+        // Merge the two arrays
+        while (i < n1 && j < n2) {
+            if (nums1[i] <= nums2[j]) {
                 mergedArray[k++] = nums1[i++];
             } else {
                 mergedArray[k++] = nums2[j++];
             }
         }
+
+        // If there are remaining elements in nums1
+        while (i < n1) {
+            mergedArray[k++] = nums1[i++];
+        }
+
+        // If there are remaining elements in nums2
+        while (j < n2) {
+            mergedArray[k++] = nums2[j++];
+        }
+
         int totalLength = mergedArray.length;
 
         if (totalLength % 2 == 1) {
@@ -84,7 +84,7 @@ public class MedianOfTwoSortedArray {
     }
 
     public static void main(String[] args) {
-        int[] nums1 = {1, 2}, nums2 = {3, 4};
+        int[] nums1 = {1, 3}, nums2 = {2};
         MedianOfTwoSortedArray medianOfTwoSortedArray = new MedianOfTwoSortedArray();
         double result = medianOfTwoSortedArray.findMedianSortedArraysOptimizedWay(nums1, nums2);
 
