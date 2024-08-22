@@ -1,9 +1,6 @@
 package main.java.array.topKFrequentElement;
 
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Objects;
-import java.util.stream.Collectors;
+import java.util.*;
 
 /**
  * Given an integer array nums and an integer k,
@@ -29,22 +26,21 @@ public class TopKFrequentElement {
         for (int i = 0; i < nums.length; i++) {
             map.put(nums[i],map.getOrDefault(nums[i],0)+1);
         }
-        Object[] arr = map.entrySet().stream()
-                .filter(e -> e.getValue() >= k)
-                .map(Map.Entry::getKey)
-                .toArray();
-
-        int[] ars = new int[arr.length];
-        for (int i = 0; i < arr.length; i++) {
-            ars[i] = (int) arr[i];
+        PriorityQueue<Map.Entry<Integer,Integer>> maxHeap= new PriorityQueue<>((a,b)->b.getValue()-a.getValue());
+        for (Map.Entry<Integer,Integer> entry: map.entrySet()) {
+            maxHeap.add(entry);
         }
-        return ars;
+        List<Integer> result= new ArrayList<>();
+        while(result.size()<k){
+          result.add(maxHeap.poll().getKey());
+        }
+        return result.stream().mapToInt(Integer::intValue).toArray();
     }
 
     public static void main(String[] args) {
         TopKFrequentElement topKFrequentElement = new TopKFrequentElement();
-        int[] nums =new int[]{1};
-        int k = 1;
+        int[] nums =new int[]{1,2};
+        int k = 2;
         for (Integer ojk : topKFrequentElement.topKFrequent(nums, k)) {
             System.out.println(ojk);
         }
