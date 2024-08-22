@@ -1,4 +1,4 @@
-package src.main.java.array.checkiftwoNumbers;
+package main.java.array.checkiftwoNumbers;
 
 import java.util.HashSet;
 
