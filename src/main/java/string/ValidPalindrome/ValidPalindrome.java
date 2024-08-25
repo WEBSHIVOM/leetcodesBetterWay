@@ -1,4 +1,4 @@
-package src.main.java.string.ValidPalindrome;
+package main.java.string.ValidPalindrome;
 
 public class ValidPalindrome {
 
@@ -12,11 +12,9 @@ public class ValidPalindrome {
                i++;}
            else if(!Character.isLetterOrDigit(ch[j])){
                j--;
-           }else if(Character.toLowerCase(ch[i])!=Character.toLowerCase(ch[j])){
+           }else if(Character.toLowerCase(ch[i++])!=Character.toLowerCase(ch[j--])){
                    return false;
                  }
-                  i++;
-                  j--;
                  
         }
         return true;
@@ -34,8 +32,9 @@ public class ValidPalindrome {
         return true;
     }
 
+
     public static void main(String[] args) {
-        String sss="A man, a nama";
+        String sss="A man, a plan, a canal: Panama";
         System.out.println(new ValidPalindrome().isPalindrome(sss));
     }
 }
