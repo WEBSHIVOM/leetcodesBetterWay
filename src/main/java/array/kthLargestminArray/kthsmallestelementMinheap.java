@@ -16,6 +16,6 @@ public class kthsmallestelementMinheap {
 
     public static void main(String[] args) {
         int[] n = { 1, 4, 3, 2, 5, 6, 7, 8, 9, 11, 23 };
-        findkthMins(Arrays.stream(n).boxed().collect(Collectors.toList()), 7);
+        findkthMins(Arrays.stream(n).boxed().collect(Collectors.toList()), 2);
     }
 }

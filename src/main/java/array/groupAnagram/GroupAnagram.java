@@ -39,6 +39,6 @@ public class GroupAnagram {
         String[] input = new String[]{"eat", "tea", "tan", "ate", "nat", "bat"};
         String[] ncalInput = new String[]{"", ""};
 
-        groupAnagram.groupAnagrams(input);
+        groupAnagram.groupAnagrams(input).stream().forEach(e->System.out.println(e));
     }
 }

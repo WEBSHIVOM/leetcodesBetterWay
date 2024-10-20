@@ -1,7 +1,8 @@
 package src.main.java.array.jumpgame.ArranginCoins;
 /* https://leetcode.com/problems/arranging-coins/description/
 
-You have a total of n coins that you want to form in a staircase shape, where every k-th row must have exactly k coins.
+You have a total of n coins that you want to form in a staircase shape,
+ where every k-th row must have exactly k coins.
 
 Givenn, find the total number of full staircase rows that can be formed.
 

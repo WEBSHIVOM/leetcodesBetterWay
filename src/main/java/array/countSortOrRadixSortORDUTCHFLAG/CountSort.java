@@ -1,4 +1,4 @@
-package src.main.java.array.countSortOrRadixSortORDUTCHFLAG;
+package main.java.array.countSortOrRadixSortORDUTCHFLAG;
 
 public class CountSort {
 
