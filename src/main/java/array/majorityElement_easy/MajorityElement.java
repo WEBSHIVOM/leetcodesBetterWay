@@ -1,4 +1,4 @@
-package src.main.java.array.majorityElement_easy;
+package main.java.array.majorityElement_easy;
 
 import java.util.HashMap;
 
